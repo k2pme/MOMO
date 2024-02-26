@@ -39,16 +39,15 @@ After having all dependances by downloading them with npm install, otherwase the
         ├──package-lock.json
         ├──package.json 
 
-####    Collection
+###   Collection
 
-        collection is a MTN MOMO API product, it is able to remote collection of bills, fees or taxes
+        collection is a MTN MOMO API product it is able to remote collection of bills, fees or taxes.
+        
 
-        more : https://momodeveloper.mtn.com/API-collections#api=collection
-
-        -> createAccessToken() => {}
+####       createAccessToken() => {}
             This function is used to create an access token which can then be used to authorize and authenticate towards the other end-points of the API.
 
-            parameters :
+####            parameters :
                 required :
                     auth : for Autorization, provide an dict({key : 'value'}) within  
                                 ~apikey(string) : your api key generate from user provisionning
@@ -58,6 +57,7 @@ After having all dependances by downloading them with npm install, otherwase the
                 no-required :
                     cache(string) : your cache option; default : 'no-cache'
                     root(string) : your uri's root; default : 'https://sandbox.momodeveloper.mtn.com'
+
 
             example :
                 ```
