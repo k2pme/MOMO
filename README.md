@@ -48,8 +48,8 @@ collection is a MTN MOMO API product it is able to remote collection of bills, f
 This function is used to create an access token which can then be used to authorize and authenticate towards the other end-points of the API.
 
 ####            parameters :
-required :
-    auth : for Autorization, provide an dict({key : 'value'}) within  
+**required :**
+    ``auth : for Autorization, provide an dict({key : 'value'}) within``
                 ~apikey(string) : your api key generate from user provisionning
                 ~apiUser(string) : your user id in UUID4 format.
     subscriptionKey :  your Ocp-Apim-Subscription-Key
