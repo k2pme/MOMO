@@ -23,7 +23,7 @@ momo is an electronic wallet of MTN, use this package to easely access to MTN MO
 
 After having all dependances by downloading them with npm install, otherwase they can be had from package.json, and be registred to [MTN MOMO web site](https://momodeveloper.mtn.com/)
 
-    - Dir structure
+Dir structure
 
         Projects/MTN_momo/
         ├── lib
@@ -60,7 +60,7 @@ After having all dependances by downloading them with npm install, otherwase the
                     root(string) : your uri's root; default : 'https://sandbox.momodeveloper.mtn.com'
 
             example :
-                ```Javascript
+                ```
                 const collection = require('mtnmomo');
                 const myfunc : async ()=>{
                     const rep = await collection.createAccessToken({apiKey : '9481875d16d84243936834c6f01badf6', apiUser : 'de1355f7-d09e-467d-a37e-b38a704cfd87'}, '42e819df23934e7799c45cc42cb275c4');
