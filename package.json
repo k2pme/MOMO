@@ -1,6 +1,6 @@
 {
   "name": "mtnmomocollection",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "MTN MOMO Nodejs package ",
   "main": "index.js",
   "scripts": {
