@@ -1,19 +1,18 @@
 # MOMO
 
-momo is an electronic wallet of MTN, use this package to easely access to MTN MOMO API in sandbox and in live 
+Momo is an electronic wallet by MTN. Use this package to easily access the MTN MOMO API in sandbox and in live environments.
 
 ## Setup
 
-  from github :
+- From GitHub :
 ```bash
-git clone https://github.com/k2pme/MOMO.git
-```
-```bash
-cd MOMO && npm install 
+git clone https://github.com/k2pme/MOMO.git   
+cd MOMO   
+npm install 
 ```
         
 
- form npm :
+- With npm :
 ```bash
 npm install mtnmomo
 ```
@@ -21,7 +20,7 @@ npm install mtnmomo
 
 # Usage 
 
-After having all dependances by downloading them with npm install, otherwase they can be had from package.json, and be registred to [MTN MOMO web site](https://momodeveloper.mtn.com/)
+After installing all dependencies using npm install, you can register at the [MTN MOMO web site](https://momodeveloper.mtn.com/)
 
 # Mains functions
 
@@ -54,29 +53,29 @@ getBasicUserinfo => json ;
 
 ###   Collection
 
-collection is a MTN MOMO API product it is able to remote collection of bills, fees or taxes.  
+collection is an MTN MOMO API product used for remote collection of bills, fees or taxes.  
 > Ressources : [Collection](https://momodeveloper.mtn.com/API-collections#api=collection)
 
 ###     userProvisioning 
-Useful for sandbox  user, you can ``POST`` your apiUser and your apikey or ``GET``
+Useful for sandbox  users, you can ``POST`` your apiUser and your apikey or ``GET``
 >Ressource : [sandbox User Provisioning](https://momodeveloper.mtn.com/API-collections#api=sandbox-provisioning-api&operation=post-v1_0-apiuser)
         
 
 ###   parameters :
 - **required :**  
-*auth* : for Autorization, provide an dict({key : 'value'}) within  
+*auth* : for Autorization, provide an object({key : 'value'}) within  
 >apikey(string) : your api key generate from user provisionning  
- apiUser(string) : your user id in UUID4 format.  
+ apiUser(string) : your user ID in UUID4 format.  
 
 *subscriptionKey(string)* :  your Ocp-Apim-Subscription-Key  
 *uuid(string)* : an UUID4  
 *accessToken(string)* : your token create with ``POST CreateAccessToken``   
 
 - **no-required :**
-    *cache(string)* : your cache option; ``default : 'no-cache'``  
-    *root(string)* : your uri's root; ``default : 'https://sandbox.momodeveloper.mtn.com'``    
-    *body* : useful in some case, provide yours in json object format in live session ``{'key' : 'value'}``  
-    *env* : for X-Target-Environment, ``default : 'sandbox'`` 
+    *cache(string)* : your cache option; ``default : 'no-cache'``
+    *root(string)* : your URI root; ``default : 'https://sandbox.momodeveloper.mtn.com'``    
+    *body* : useful in some cases, provide yours in json object format in live session ``{'key' : 'value'}``  
+    *env* : for X-Target-Environment, ``default : 'sandbox'``  .
 
 
 
@@ -109,17 +108,17 @@ myfunc();
 ```
 ## Licence   
 
-This project responds to this license [LICENSE](./LICENSE)
+This project is licensed under the [LICENSE](./LICENSE)
 
 ## Contributions 
 
-That would be so amazing to collaborate with your, Please reach me at my email :smile
+It would be so amazing to collaborate with your, Please reach out to me via my email :-)
 
 ## Author
 
-Clodlin MANTSILA
-github : @k2pme
-email : cmantsila0@gmail.com
+Clodlin MANTSILA  
+github : @k2pme  
+email : cmantsila0@gmail.com  
 
 
 
