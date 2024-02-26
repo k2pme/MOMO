@@ -13,18 +13,18 @@ cd MOMO
 
 - With npm :
 ```bash
-npm install mtnmomo
+npm install mtnmomocollection
 ```
->Or do you wanna test ?
+>Or do you wanna test ?   
 
-    ```bash
-    git clone https://github.com/k2pme/MOMO.git   
-    cd MOMO 
-    npm install
-    npm test 
-    ```
-    After that, edit the [Test File](./momo.test.js).
-    See an exemple of code below.
+```bash
+git clone https://github.com/k2pme/MOMO.git   
+cd MOMO 
+npm install
+npm test 
+```   
+After that, edit the [Test File](./momo.test.js).
+See an exemple of code below.
 
 # Usage 
 
@@ -83,7 +83,7 @@ Useful for sandbox  users, you can ``POST`` your apiUser and your apikey or ``GE
     * *accessToken(string)* :   
         your token create with ``POST CreateAccessToken``   
 
-- **no-required :**  
+- **not required :**  
     * *cache(string)* :   
         your cache option;   
         ``default : 'no-cache'``  
