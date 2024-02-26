@@ -49,10 +49,10 @@ This function is used to create an access token which can then be used to author
 
 ####            parameters :
 **required :**
-auth : for Autorization, provide an dict({key : 'value'}) within
-            ~apikey(string) : your api key generate from user provisionning
-            ~apiUser(string) : your user id in UUID4 format.
-subscriptionKey :  your Ocp-Apim-Subscription-Key
+**auth** : for Autorization, provide an dict({key : 'value'}) within
+            **~apikey(string)** : your api key generate from user provisionning
+            **~apiUser(string)** : your user id in UUID4 format.
+**subscriptionKey** :  your Ocp-Apim-Subscription-Key
 
 no-required :
     cache(string) : your cache option; default : 'no-cache'
