@@ -43,7 +43,7 @@ After having all dependances by downloading them with npm install, otherwase the
 
         collection is a MTN MOMO API product, it is able to remote collection of bills, fees or taxes
 
-        more : https://momodeveloper.mtn.com/API-collections#api=collection
+        more : [Collection Product](https://momodeveloper.mtn.com/API-collections#api=collection)
 
         -> createAccessToken() => {}
             This function is used to create an access token which can then be used to authorize and authenticate towards the other end-points of the API.
@@ -60,7 +60,7 @@ After having all dependances by downloading them with npm install, otherwase the
                     root(string) : your uri's root; default : 'https://sandbox.momodeveloper.mtn.com'
 
             example :
-                ```javascript
+                ```Javascript
                 const collection = require('mtnmomo');
                 const myfunc : async ()=>{
                     const rep = await collection.createAccessToken({apiKey : '9481875d16d84243936834c6f01badf6', apiUser : 'de1355f7-d09e-467d-a37e-b38a704cfd87'}, '42e819df23934e7799c45cc42cb275c4');
