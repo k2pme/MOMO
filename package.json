@@ -1,5 +1,5 @@
 {
-  "name": "mtn_momo",
+  "name": "mtnmomo",
   "version": "1.0.0",
   "description": "MTN MOMO Nodejs package ",
   "main": "index.js",
@@ -24,7 +24,6 @@
   "dependencies": {
     "axios": "^1.6.7",
     "base-64": "^1.0.0",
-    "dotenv": "^16.4.5",
     "utf8": "^3.0.0",
     "uuid4": "^2.0.3"
   },
