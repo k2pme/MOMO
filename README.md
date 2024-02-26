@@ -71,18 +71,18 @@ Useful for sandbox  users, you can ``POST`` your apiUser and your apikey or ``GE
 
 ###   parameters :
 - **required :**  
-*auth* : for Autorization, provide an object({key : 'value'}) within  
->apikey(string) : your api key generate from user provisionning  
- apiUser(string) : your user ID in UUID4 format.  
+    * *auth* : for Autorization, provide an object({key : 'value'}) within  
+    >apikey(string) : your api key generate from user provisionning  
+     apiUser(string) : your user ID in UUID4 format.  
 
-*subscriptionKey(string)* :  your Ocp-Apim-Subscription-Key  
-*uuid(string)* : an UUID4  
-*accessToken(string)* : your token create with ``POST CreateAccessToken``   
+    * *subscriptionKey(string)* :  your Ocp-Apim-Subscription-Key  
+    * *uuid(string)* : an UUID4  
+    * *accessToken(string)* : your token create with ``POST CreateAccessToken``   
 
-- **no-required :**
-    *cache(string)* : your cache option; ``default : 'no-cache'``
+- **no-required :**  
+    *cache(string)* : your cache option; ``default : 'no-cache'``  
     *root(string)* : your URI root; ``default : 'https://sandbox.momodeveloper.mtn.com'``    
-    *body* : useful in some cases, provide yours in json object format in live session ``{'key' : 'value'}``  
+    *body* : useful in some cases, provide yours in json object format in live session ``{'key' : 'value'}``   
     *env* : for X-Target-Environment, ``default : 'sandbox'``  .
 
 
