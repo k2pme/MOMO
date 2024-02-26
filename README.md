@@ -6,7 +6,7 @@ Momo is an electronic wallet by MTN. Use this package to easily access the MTN M
 - [How set it up](#setup)
 - [Usage](#usage)
 - [Functions](#mains-functions)
-- [Example](#examples)
+- [Examples](#examples)
 
 
 ## Setup
@@ -37,7 +37,7 @@ After that, edit the [Test File](./momo.test.js).
 
 After installing all dependencies using npm install, you can register at the [MTN MOMO web site](https://momodeveloper.mtn.com/)
 
-# Mains functions
+# Functions
 
 - sandbox User Provisioning  
 - collection :     
