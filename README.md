@@ -109,7 +109,7 @@ Useful for sandbox  users, you can ``POST`` your apiUser and your apikey or ``GE
 
 ## Examples :
 
- - Test programe 
+ - Test program
 ```javascript
 const {collection} = require('mtnmomocollection');
 
