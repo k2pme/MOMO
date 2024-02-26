@@ -19,7 +19,7 @@ npm install mtnmomo
 ```
     
 
-## Usage 
+# Usage 
 
 After having all dependances by downloading them with npm install, otherwase they can be had from package.json, and be registred to [MTN MOMO web site](https://momodeveloper.mtn.com/)
 
@@ -42,19 +42,20 @@ After having all dependances by downloading them with npm install, otherwase the
 ###   Collection
 
 collection is a MTN MOMO API product it is able to remote collection of bills, fees or taxes.
+
+###     userProvisioning 
+Useful for sandbox  user, you can ``POST`` your apiUser and your apikey or ``GET``
+ressource : [sandbox User Provisioning](https://momodeveloper.mtn.com/API-collections#api=sandbox-provisioning-api&operation=post-v1_0-apiuser)
         
 
-####       createAccessToken() => {}
-This function is used to create an access token which can then be used to authorize and authenticate towards the other end-points of the API.
-
-####            parameters :
+###   parameters :
 **required :**
 **auth** : for Autorization, provide an dict({key : 'value'}) within
             **~apikey(string)** : your api key generate from user provisionning
             **~apiUser(string)** : your user id in UUID4 format.
 **subscriptionKey** :  your Ocp-Apim-Subscription-Key
 
-no-required :
+>no-required :
     cache(string) : your cache option; default : 'no-cache'
     root(string) : your uri's root; default : 'https://sandbox.momodeveloper.mtn.com'
 
