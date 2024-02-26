@@ -88,7 +88,7 @@ Useful for sandbox  users, you can ``POST`` your apiUser and your apikey or ``GE
         your cache option;   
         ``default : 'no-cache'``  
     * *root(string)* :   
-        your URI root;  
+        your root URI;  
         ``default : 'https://sandbox.momodeveloper.mtn.com'``    
     * *body* :   
         useful in some cases, provide yours in json object format in live session   
