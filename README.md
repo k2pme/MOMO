@@ -31,7 +31,7 @@ npm install
 npm test 
 ```   
 After that, edit the [Test File](./momo.test.js).
-[See an exemple](#test-programe).
+See an exemple below.
 
 # Usage 
 
@@ -109,7 +109,7 @@ Useful for sandbox  users, you can ``POST`` your apiUser and your apikey or ``GE
 
 ## Examples :
 
-#### - Test programe 
+ - Test programe 
 ```javascript
 const {collection} = require('mtnmomocollection');
 
