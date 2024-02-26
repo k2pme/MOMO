@@ -7,9 +7,11 @@ momo is an electronic wallet of MTN, use this package to easely access to MTN MO
  > from github :
         ```bash
         git clone https://github.com/k2pme/MOMO.git
-        cd MOMO
-        npm install 
         ```
+        ```bash
+        cd MOMO && npm install 
+        ```
+        
 
  >form npm :
         ```bash
@@ -58,7 +60,7 @@ After having all dependances by downloading them with npm install, otherwase the
                     root(string) : your uri's root; default : 'https://sandbox.momodeveloper.mtn.com'
 
             example :
-                ```nodejs
+                ```javascript
                 const collection = require('mtnmomo');
                 const myfunc : async ()=>{
                     const rep = await collection.createAccessToken({apiKey : '9481875d16d84243936834c6f01badf6', apiUser : 'de1355f7-d09e-467d-a37e-b38a704cfd87'}, '42e819df23934e7799c45cc42cb275c4');
