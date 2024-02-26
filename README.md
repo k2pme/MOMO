@@ -22,10 +22,9 @@ npm install mtnmomo
     cd MOMO 
     npm install
     npm test 
-```
-After that edit the [Test File](./momo.test.js).
-see 
-    
+    ```
+    After that, edit the [Test File](./momo.test.js).
+    See an exemple of code below.
 
 # Usage 
 
@@ -90,6 +89,29 @@ Useful for sandbox  users, you can ``POST`` your apiUser and your apikey or ``GE
 
 
 ## Examples :
+
+- Test programe 
+```javascript
+const collection = require('./lib/products/collection');
+
+
+test('test1', async ()=>{
+
+    const auth = {
+        apiKey : '9481875d16d84243936834c6f01badf6', 
+        apiUser : 'de1355f7-d09e-467d-a37e-b38a704cfd87'
+    };
+
+    const subscriptionKey = '42e819df23934e7799c45cc42cb275c4';
+
+    const rep = await collection.createAccessToken(auth, subscriptionKey);
+
+    if(rep){
+        console.info(rep);
+    }
+
+});
+```
 - Create an access token
 ```javascript
 const collection = require('mtnmomo');
