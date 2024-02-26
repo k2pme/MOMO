@@ -15,7 +15,7 @@ cd MOMO
 ```bash
 npm install mtnmomo
 ```
->Or du you want test ?
+>Or do you wanna test ?
 
     ```bash
     git clone https://github.com/k2pme/MOMO.git   
