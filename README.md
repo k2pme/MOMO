@@ -25,8 +25,8 @@ After having all dependances by downloading them with npm install, otherwase the
 
 # Mains functions
 
-- sandbox User Provisioning : [reach][URL#L10]
-- collection : [reach][URL#L55]   
+- sandbox User Provisioning  
+- collection :     
 
 createAccessToken => json ;  
 createPayment => json ;    
@@ -63,7 +63,7 @@ Useful for sandbox  user, you can ``POST`` your apiUser and your apikey or ``GET
         
 
 ###   parameters :
-**required :**  
+- **required :**  
 *auth* : for Autorization, provide an dict({key : 'value'}) within  
 >apikey(string) : your api key generate from user provisionning  
  apiUser(string) : your user id in UUID4 format.  
@@ -72,7 +72,7 @@ Useful for sandbox  user, you can ``POST`` your apiUser and your apikey or ``GET
 *uuid(string)* : an UUID4  
 *accessToken(string)* : your token create with ``POST CreateAccessToken``   
 
-**no-required :**
+- **no-required :**
     *cache(string)* : your cache option; ``default : 'no-cache'``  
     *root(string)* : your uri's root; ``default : 'https://sandbox.momodeveloper.mtn.com'``    
     *body* : useful in some case, provide yours in json object format in live session ``{'key' : 'value'}``  
@@ -81,11 +81,22 @@ Useful for sandbox  user, you can ``POST`` your apiUser and your apikey or ``GET
 
 
 
-example :
+## Examples :
+- Create an access token
 ```javascript
 const collection = require('mtnmomo');
+
+
 const myfunc : async ()=>{
-    const rep = await collection.createAccessToken({apiKey : '9481875d16d84243936834c6f01badf6', apiUser : 'de1355f7-d09e-467d-a37e-b38a704cfd87'}, '42e819df23934e7799c45cc42cb275c4');
+
+    const auth = {
+        apiKey : '9481875d16d84243936834c6f01badf6', 
+        apiUser : 'de1355f7-d09e-467d-a37e-b38a704cfd87'
+    };
+
+    const subscriptionKey = '42e819df23934e7799c45cc42cb275c4';
+
+    const rep = await collection.createAccessToken(auth, subscriptionKey);
 
     if(rep){
         console.info(rep);
@@ -93,8 +104,22 @@ const myfunc : async ()=>{
 
 }
 
-const 
+myfunc();
 ;
 ```
+## Licence   
+
+This project responds to this license [LICENSE](./LICENSE)
+
+## Contributions 
+
+That would be so amazing to collaborate with your, Please reach me at my email :smile
+
+## Author
+
+Clodlin MANTSILA
+github : @k2pme
+email : cmantsila0@gmail.com
+
 
 
