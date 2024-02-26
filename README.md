@@ -23,7 +23,7 @@ momo is an electronic wallet of MTN, use this package to easely access to MTN MO
 
 After having all dependances by downloading them with npm install, otherwase they can be had from package.json, and be registred to [MTN MOMO web site](https://momodeveloper.mtn.com/)
 
-Dir structure
+###     Dir structure
 
         Projects/MTN_momo/
         ├── lib
@@ -39,7 +39,7 @@ Dir structure
         ├──package-lock.json
         ├──package.json 
 
-Collection
+####    Collection
 
         collection is a MTN MOMO API product, it is able to remote collection of bills, fees or taxes
 
