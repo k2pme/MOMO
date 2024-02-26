@@ -1,6 +1,13 @@
 # MOMO
 
-Momo is an electronic wallet by MTN. Use this package to easily access the MTN MOMO API in sandbox and in live environments.
+Momo is an electronic wallet by MTN. Use this package to easily access the MTN MOMO API in sandbox and in live environments.     
+
+
+- [How set it up](#setup)
+- [Usage](#usage)
+- [Functions](#mains-functions)
+- [Example](#examples)
+
 
 ## Setup
 
@@ -24,7 +31,7 @@ npm install
 npm test 
 ```   
 After that, edit the [Test File](./momo.test.js).
-See an exemple of code below.
+[See an exemple](#test-programe).
 
 # Usage 
 
@@ -102,7 +109,7 @@ Useful for sandbox  users, you can ``POST`` your apiUser and your apikey or ``GE
 
 ## Examples :
 
-- Test programe 
+#### - Test programe 
 ```javascript
 const {collection} = require('mtnmomocollection');
 
