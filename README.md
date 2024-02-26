@@ -23,6 +23,19 @@ npm install mtnmomo
 
 After having all dependances by downloading them with npm install, otherwase they can be had from package.json, and be registred to [MTN MOMO web site](https://momodeveloper.mtn.com/)
 
+# Mains functions
+
+- sandbox User Provisioning : [reach][URL#L10]
+- collection : [reach][URL#L55]   
+
+createAccessToken => json ;  
+createPayment => json ;    
+requestToPay => json ;  
+getAcountBalance => json ;  
+getBasicUserinfo => json ;  
+
+
+
 ###     Dir structure
 
         Projects/MTN_momo/
@@ -41,23 +54,31 @@ After having all dependances by downloading them with npm install, otherwase the
 
 ###   Collection
 
-collection is a MTN MOMO API product it is able to remote collection of bills, fees or taxes.
+collection is a MTN MOMO API product it is able to remote collection of bills, fees or taxes.  
+> Ressources : [Collection](https://momodeveloper.mtn.com/API-collections#api=collection)
 
 ###     userProvisioning 
 Useful for sandbox  user, you can ``POST`` your apiUser and your apikey or ``GET``
->ressource : [sandbox User Provisioning](https://momodeveloper.mtn.com/API-collections#api=sandbox-provisioning-api&operation=post-v1_0-apiuser)
+>Ressource : [sandbox User Provisioning](https://momodeveloper.mtn.com/API-collections#api=sandbox-provisioning-api&operation=post-v1_0-apiuser)
         
 
 ###   parameters :
-**required :**
-**auth** : for Autorization, provide an dict({key : 'value'}) within  
-            **~apikey(string)** : your api key generate from user provisionning  
-            **~apiUser(string)** : your user id in UUID4 format.  
-**subscriptionKey** :  your Ocp-Apim-Subscription-Key  
+**required :**  
+*auth* : for Autorization, provide an dict({key : 'value'}) within  
+>apikey(string) : your api key generate from user provisionning  
+ apiUser(string) : your user id in UUID4 format.  
+
+*subscriptionKey(string)* :  your Ocp-Apim-Subscription-Key  
+*uuid(string)* : an UUID4  
+*accessToken(string)* : your token create with ``POST CreateAccessToken``   
 
 **no-required :**
-    cache(string) : your cache option; default : 'no-cache'
-    root(string) : your uri's root; default : 'https://sandbox.momodeveloper.mtn.com'
+    *cache(string)* : your cache option; ``default : 'no-cache'``  
+    *root(string)* : your uri's root; ``default : 'https://sandbox.momodeveloper.mtn.com'``    
+    *body* : useful in some case, provide yours in json object format in live session ``{'key' : 'value'}``  
+    *env* : for X-Target-Environment, ``default : 'sandbox'`` 
+
+
 
 
 example :
@@ -70,7 +91,10 @@ const myfunc : async ()=>{
         console.info(rep);
     }
 
-};
+}
+
+const 
+;
 ```
 
 
