@@ -4,7 +4,7 @@ momo is an electronic wallet of MTN, use this package to easely access to MTN MO
 
 ## Setup
 
- > from github :
+  from github :
         ```bash
         git clone https://github.com/k2pme/MOMO.git
         ```
@@ -13,7 +13,7 @@ momo is an electronic wallet of MTN, use this package to easely access to MTN MO
         ```
         
 
- >form npm :
+ form npm :
         ```bash
         npm install mtnmomo
         ```
@@ -43,7 +43,7 @@ After having all dependances by downloading them with npm install, otherwase the
 
         collection is a MTN MOMO API product, it is able to remote collection of bills, fees or taxes
 
-        more : [Collection Product](https://momodeveloper.mtn.com/API-collections#api=collection)
+        more : https://momodeveloper.mtn.com/API-collections#api=collection
 
         -> createAccessToken() => {}
             This function is used to create an access token which can then be used to authorize and authenticate towards the other end-points of the API.
