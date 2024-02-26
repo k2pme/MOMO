@@ -45,7 +45,7 @@ After having all dependances by downloading them with npm install, otherwase the
         
 
 ####       createAccessToken() => {}
-            This function is used to create an access token which can then be used to authorize and authenticate towards the other end-points of the API.
+            `This function is used to create an access token which can then be used to authorize and authenticate towards the other end-points of the API.`
 
 ####            parameters :
                 required :
