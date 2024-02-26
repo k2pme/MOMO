@@ -39,7 +39,7 @@ Dir structure
         ├──package-lock.json
         ├──package.json 
 
-    - Collection
+Collection
 
         collection is a MTN MOMO API product, it is able to remote collection of bills, fees or taxes
 
