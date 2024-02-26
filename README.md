@@ -7,8 +7,7 @@ Momo is an electronic wallet by MTN. Use this package to easily access the MTN M
 - From GitHub :
 ```bash
 git clone https://github.com/k2pme/MOMO.git   
-cd MOMO   
-npm install 
+cd MOMO    
 ```
         
 
@@ -16,6 +15,16 @@ npm install
 ```bash
 npm install mtnmomo
 ```
+>Or du you want test ?
+
+    ```bash
+    git clone https://github.com/k2pme/MOMO.git   
+    cd MOMO 
+    npm install
+    npm test 
+```
+After that edit the [Test File](./momo.test.js).
+see 
     
 
 # Usage 
