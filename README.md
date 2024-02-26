@@ -5,10 +5,10 @@ momo is an electronic wallet of MTN, use this package to easely access to MTN MO
 ## Setup
 
   from github :
-        ```bash
+        ```
         git clone https://github.com/k2pme/MOMO.git
         ```
-        ```bash
+        ```
         cd MOMO && npm install 
         ```
         
@@ -19,7 +19,7 @@ momo is an electronic wallet of MTN, use this package to easely access to MTN MO
         ```
     
 
-### Usage 
+## Usage 
 
 After having all dependances by downloading them with npm install, otherwase they can be had from package.json, and be registred to [MTN MOMO web site](https://momodeveloper.mtn.com/)
 
