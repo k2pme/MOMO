@@ -156,6 +156,9 @@ const myfunc : async ()=>{
 myfunc();
 ;
 ```
+> More ? See these videos
+    ![Part 1](https://www.youtube.com/watch?v=YcjFS-x1k6U)
+    ![Part 2](https://www.youtube.com/watch?v=Dx4MPR4yONQ&t=762s)
 ## Licence   
 
 This project is licensed under the [LICENSE](./LICENSE)
@@ -169,6 +172,9 @@ It would be so amazing to collaborate with your, Please reach out to me via my [
 Clodlin MANTSILA  
 * github : @k2pme  
 * email : cmantsila0@gmail.com  
+
+
+
 
 
 
