@@ -157,8 +157,8 @@ myfunc();
 ;
 ```
 > More ? See these videos
-    ![Part 1](https://www.youtube.com/watch?v=YcjFS-x1k6U)
-    ![Part 2](https://www.youtube.com/watch?v=Dx4MPR4yONQ&t=762s)
+    [![Part 1](https://i.ytimg.com/an_webp/YcjFS-x1k6U/mqdefault_6s.webp?du=3000&sqp=CPfE9K4G&rs=AOn4CLBN06CmTX_M6m4jW09JSFcAMMybSw)](https://www.youtube.com/watch?v=YcjFS-x1k6U)
+    [![Part 2](https://i.ytimg.com/an_webp/Dx4MPR4yONQ/mqdefault_6s.webp?du=3000&sqp=CPzE9K4G&rs=AOn4CLAl8zvxXAJJxmayFM2FmFcfVtb5bg)](https://www.youtube.com/watch?v=Dx4MPR4yONQ&t=762s)
 ## Licence   
 
 This project is licensed under the [LICENSE](./LICENSE)
