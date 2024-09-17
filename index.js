@@ -1,4 +1,6 @@
+
 module.exports = {
-    collection : require('./lib/products/collection'),
-    userProvisioning : require('./lib/products/userProvisioning'),
+    collection : require('./src/products/collection'),
+    userProvisioning : require('./src/products/userProvisioning'),
+    disbursement : require('./src/products/disbursement')
 }
