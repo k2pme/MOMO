@@ -1,11 +1,82 @@
-const { default: axios } = require("axios")
-const wichtig = require("../utils/functions");
+
+import axios from 'axios'
+import {wichtig} from '../utils/functions.js'
+
+export interface Auth {
+    apiKey: string;
+    apiUser: string;
+}
+
+export interface AccessTokenParams {
+    auth: Auth;
+    subscriptionKey: string;
+    cache?: string;
+    root?: string;
+}
+
+export interface Return {
+
+    response : {}
+}
+
+export interface bodyDeposit{
+
+    amount: string,
+    currency: string,
+    externalId: string,
+    payee : {
+        partyIdType : "MSISDN",
+        partyId : string
+    },
+    payerMessage : string,
+    payeeNote : string
+    
+}
 
 
+export interface DepositData{
 
-const disbursement = {
+    accessToken : string,
+    subscriptionKey : string,
+    env ?: string,
+    body ?: bodyDeposit
+    cache ?: string,
+    root ?: string,
+    XReferenceId : string
+}
 
-    createAccessToken : async ({auth = {apiKey, apiUser}, subscriptionKey, cache='no-cache', root='https://sandbox.momodeveloper.mtn.com'})=>{
+export interface TransfertBody{
+    "amount": "12000",
+    "currency": "EUR",
+    "externalId": "12345",
+    "payee": {
+        "partyIdType": "MSISDN",
+        "partyId": "242068541193"
+    },
+    "payerMessage": "string",
+    "payeeNote": "string"
+}
+
+export interface TransfertData{
+
+    accessToken : string,
+    subscriptionKey : string,
+    env ?: string,
+    body ?: TransfertBody,
+    cache ?: string,
+    root ?: string,
+    XReferenceId : string
+
+}
+
+export const disbursement = {
+
+    createAccessToken : async ({
+        auth, 
+        subscriptionKey, 
+        cache='no-cache', 
+        root='https://sandbox.momodeveloper.mtn.com'
+    } : AccessTokenParams) : Promise<Return>=>{
 
         const basic = wichtig.basicFormat(wichtig.bas64Encode(auth.apiUser, auth.apiKey));
 
@@ -39,12 +110,14 @@ const disbursement = {
 
     },
 
+
     deposit : async (
         { 
-             accessToken,
-             subscriptionKey,
-             env='sandbox',
-             body = {
+            accessToken,
+            subscriptionKey,
+            env='sandbox',
+            body = {
+
                 "amount": "string",
                 "currency": "string",
                 "externalId": "string",
@@ -54,13 +127,14 @@ const disbursement = {
                 },
                 "payerMessage": "string",
                 "payeeNote": "string"
+                
             },
-             cache = 'no-cache',
-             root='https://sandbox.momodeveloper.mtn.com',
-             XReferenceId=null
-         }
+            cache = 'no-cache',
+            root='https://sandbox.momodeveloper.mtn.com',
+            XReferenceId
+         } : DepositData
          
-         )=>{
+    ) : Promise<Return>=>{
  
          
             //  if(!XReferenceId){
@@ -100,10 +174,10 @@ const disbursement = {
 
     Transfer : async (
         { 
-             accessToken,
-             subscriptionKey,
-             env='sandbox',
-             body = {
+            accessToken,
+            subscriptionKey,
+            env='sandbox',
+            body = {
                 "amount": "12000",
                 "currency": "EUR",
                 "externalId": "12345",
@@ -114,12 +188,12 @@ const disbursement = {
                 "payerMessage": "string",
                 "payeeNote": "string"
             },
-             cache = 'no-cache',
-             root='https://sandbox.momodeveloper.mtn.com',
-             XReferenceId=null
-         }
+            cache = 'no-cache',
+            root='https://sandbox.momodeveloper.mtn.com',
+            XReferenceId
+        } : TransfertData
          
-         )=>{
+    ) : Promise<Return>=>{
  
          
             //  if(!XReferenceId){
