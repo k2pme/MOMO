@@ -20,7 +20,7 @@ cd MOMO
 
 - With npm :
 ```bash
-npm install mtnmomocollection
+npm install mtnmomocg
 ```
 >Or do you wanna test ?   
 
