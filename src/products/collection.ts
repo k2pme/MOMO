@@ -123,14 +123,6 @@ export interface AccountBalanceCurrency{
     currency : string
 }
 
-// interface AccountBalance{
-
-//     root ?: string,
-//     accessToken : string,
-//     env ?: string,
-//     cache ?: string,
-//     subscriptionKey : string
-// }
 
 
 
@@ -165,7 +157,6 @@ export const collection = {
 
         }catch(err){
 
-            console.log(err)
            throw err;
             
         }
@@ -211,8 +202,6 @@ export const collection = {
         try{
 
             const rep = await axios.post(`${root}/collection/v1_0/requesttopay`, body, {headers});
-
-            rep.data.XReferenceId = XReferenceId
 
             return rep.data
 
@@ -263,8 +252,6 @@ export const collection = {
 
                 const rep = await axios.post(`${root}/collection/v2_0/payment`, body, {headers});
     
-                rep.data.XReferenceId = XReferenceId
-
                 return rep.data
     
             }catch(err){
@@ -360,7 +347,6 @@ export const collection = {
 
     } : requestTopayInfo) : Promise<Return>=>{
 
-
         const headers = {
             'Authorization' : wichtig.bearerFormat(accessToken),
             'X-Target-Environment' : env,
@@ -454,3 +440,4 @@ export const collection = {
     },
 
 }
+

@@ -1,3 +1,3 @@
-import Products from "./lib";
+import Products from './lib/index.d';
 
 export default Products

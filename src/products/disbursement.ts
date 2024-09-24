@@ -1,6 +1,7 @@
 
 import axios from 'axios'
 import {wichtig} from '../utils/functions.js'
+import { error } from 'console';
 
 export interface Auth {
     apiKey: string;
@@ -78,10 +79,9 @@ export const disbursement = {
         root='https://sandbox.momodeveloper.mtn.com'
     } : AccessTokenParams) : Promise<Return>=>{
 
+
         const basic = wichtig.basicFormat(wichtig.bas64Encode(auth.apiUser, auth.apiKey));
 
-
-        console.log(basic)
         
         const headers = {
 
@@ -104,6 +104,7 @@ export const disbursement = {
 
         }catch(err){
 
+            console.log(err)
            throw err;
             
         }
@@ -203,7 +204,7 @@ export const disbursement = {
  
          const headers = {
              'Authorization' : wichtig.bearerFormat(accessToken),
-             'X-Reference-Id' : XReferenceId,
+             'X-Reference-Id' : XReferenceId ? XReferenceId : wichtig.generateUUID(),
              'X-Target-Environment' : env,
              'Content-Type' : 'application/json',
              'Cache-Control' : cache,
@@ -214,9 +215,7 @@ export const disbursement = {
  
              const rep = await axios.post(`${root}/disbursement/v1_0/transfer`, body, {headers});
  
-             rep.data.XReferenceId = XReferenceId
 
-             console.log(rep.data)
              return rep.data
  
          }catch(err){
@@ -236,6 +235,5 @@ export const disbursement = {
 
 
 
-module.exports = disbursement;
 
 

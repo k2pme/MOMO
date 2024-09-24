@@ -1,6 +1,6 @@
 {
   "type": "commonjs",
-  "name": "mtnmomocollection",
+  "name": "mtnmomocg",
   "version": "2.4.0",
   "description": "MTN MOMO Nodejs package ",
   "main": "lib/index.js",
