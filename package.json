@@ -1,13 +1,13 @@
 {
-  "name": "mtn_momo",
-  "version": "1.0.0",
+  "name": "mtnapimomo",
+  "version": "1.0.1",
   "description": "MTN MOMO Node.js package",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
-  "types": "types/momo.d.ts",
+  "types": "dist/types/momo.d.ts",
 
   "scripts": {
-    "build": "babel src -d dist --extensions \".ts,.js\" --ignore \"**/*.d.ts\" && tsc && cp package.json README.md dist/",
+    "build": "babel src -d dist --extensions \".ts,.js\" --ignore \"**/*.d.ts\" && tsc && cp -r types dist/",
     "test": "jest",
     "prepare": "npm run build"
   },

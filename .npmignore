@@ -2,3 +2,7 @@ src/
 tests/
 .gitignore
 .babelrc
+jest*
+momo.tests.jest
+package-lock.json
+tsconfig.json
