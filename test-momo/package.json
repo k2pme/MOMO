@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mtn_momo": "file:../mtn_momo-1.0.0.tgz"
+    "mtnapimomo": "file:../mtnapimomo-1.0.0.tgz"
   }
 }

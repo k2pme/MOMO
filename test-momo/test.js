@@ -1,2 +1,2 @@
-const momo = require("mtn_momo");
+const momo = require("mtnapimomo");
 console.log(momo);
