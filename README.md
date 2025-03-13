@@ -17,7 +17,6 @@ git clone https://github.com/k2pme/MOMO.git
 cd MOMO    
 ```
         
-
 - With npm :
 ```bash
 npm i mtnapimomo
