@@ -168,4 +168,3 @@ This project is licensed under the [LICENSE](./LICENSE)
 
 Clodlin MANTSILA  
 * github : @k2pme  
-* email : cmantsila0@gmail.com
