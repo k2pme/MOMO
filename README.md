@@ -163,9 +163,6 @@ myfunc();
 
 This project is licensed under the [LICENSE](./LICENSE)
 
-## Contributions 
-
-It would be so amazing to collaborate with you, Please reach out to me via my [email](cmantsila0@gmail.com) :-)
 
 ## Author
 
