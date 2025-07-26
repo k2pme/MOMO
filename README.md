@@ -165,6 +165,4 @@ This project is licensed under the [LICENSE](./LICENSE)
 
 
 ## Author
-
-Clodlin MANTSILA  
 * github : @k2pme  
