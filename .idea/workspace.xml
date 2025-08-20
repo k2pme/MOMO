@@ -5,52 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bcb6097-e40a-4633-bf18-6975a9f8d019" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/smoke.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logging/file-transport.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logging/logger.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logging/memory-transport.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logging/transports.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/provisioning.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/collection.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/disbursement.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/remittance.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/ids.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/node-safe.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.cjs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/products/collection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/products/disbursement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/products/userProvisioning.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/types/momo.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/utils/functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/utils/var.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/momo.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsup.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/auth.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/client.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/config.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logging/file-transport.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logging/file-transport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logging/logger.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logging/logger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logging/memory-transport.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logging/memory-transport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logging/transports.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logging/transports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/provisioning.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/provisioning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/services/collection.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/services/collection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/services/disbursement.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/services/disbursement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/services/remittance.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/services/remittance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/utils/ids.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/utils/ids.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/utils/node-safe.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/utils/node-safe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/products/collection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/products/disbursement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/products/userProvisioning.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/var.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-momo/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-momo/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-momo/test-momo-1.0.0.tgz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-momo/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/momo.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.cjs.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.cjs.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +101,7 @@
       <updated>1755707715740</updated>
       <workItem from="1755707716961" duration="37000" />
       <workItem from="1755707768584" duration="1941000" />
-      <workItem from="1755709724709" duration="12802000" />
+      <workItem from="1755709724709" duration="15906000" />
     </task>
     <servers />
   </component>

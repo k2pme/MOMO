@@ -1,29 +1,23 @@
 {
   "name": "mtnapimomo",
-  "version": "1.2.1",
+  "version": "1.2.3",
   "description": "MTN MoMo SDK (Collection, Disbursement, Remittance) with auto-provisioning, token caching, daily file logs.",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
   },
-  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc && tsc -p tsconfig.cjs.json",
+    "build": "tsup",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [
-    "mtn",
-    "momo",
-    "mobile money",
-    "collection",
-    "disbursement",
-    "remittance"
-  ],
+  "files": ["dist", "README.md", "LICENSE"],
+  "keywords": ["mtn", "momo", "mobile money", "collection", "disbursement", "remittance"],
   "author": "Clodlin MANTSILA",
   "license": "MIT",
   "dependencies": {
@@ -36,6 +30,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
-    "typescript": "^5.8.2"
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
   }
 }

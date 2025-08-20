@@ -1,5 +1,10 @@
 {
   "extends": "./tsconfig.json",
-  "compilerOptions": { "module": "CommonJS", "outDir": "dist", "declaration": false },
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "dist-cjs",
+    "declaration": false,
+    "sourceMap": false
+  },
   "include": ["src"]
 }
