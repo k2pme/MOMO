@@ -1,0 +1,148 @@
+{"ts":"2025-08-20T17:28:21.398Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T17:43:29.121Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T17:44:03.590Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T17:47:15.080Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T17:54:12.185Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T17:55:02.710Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T17:56:16.882Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T17:59:10.796Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T17:59:55.094Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T18:08:33.373Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T18:10:03.250Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T18:10:09.125Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"2e01a42f-a006-4436-9686-175584177b79"}}
+{"ts":"2025-08-20T18:10:11.308Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T18:10:11.611Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T18:17:29.463Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T18:17:39.927Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"472d083c-1e60-4bbd-9a16-708252d28e18"}}
+{"ts":"2025-08-20T18:17:42.152Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T18:17:42.526Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T18:18:21.527Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T18:18:23.974Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"e67670d7-a763-4f81-adcc-33f841ea7ec9"}}
+{"ts":"2025-08-20T18:18:26.216Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T18:18:26.553Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T18:23:07.983Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T18:23:18.971Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"de15ece7-6753-4ed3-ad13-acd7c09f782d"}}
+{"ts":"2025-08-20T18:23:21.197Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T18:23:21.544Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T18:25:16.848Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T18:25:23.862Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"74d14d79-f65c-4bdc-b218-80daa8b62c53"}}
+{"ts":"2025-08-20T18:25:26.170Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T18:25:26.520Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T18:45:30.899Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T18:45:37.789Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"db5163c1-93eb-4827-a635-fbe4bf21639c"}}
+{"ts":"2025-08-20T18:45:40.015Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T18:45:40.350Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T18:47:18.832Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T18:47:26.202Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"4d4a00cc-ef8b-4de1-8ffe-ba3bdb6b0f6d"}}
+{"ts":"2025-08-20T18:47:28.424Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T18:47:28.785Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T18:49:00.003Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T18:49:06.306Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"518410b9-2162-445b-8d47-1c0fbb085361"}}
+{"ts":"2025-08-20T18:49:08.534Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T18:49:08.878Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T18:54:01.541Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T18:54:09.279Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"1d5ff453-799f-412d-89ad-416129b401ab"}}
+{"ts":"2025-08-20T18:54:11.511Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T18:54:11.882Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T18:56:06.149Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T18:56:17.100Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"0ad5968d-dc9a-4100-a84f-5156378a969d"}}
+{"ts":"2025-08-20T18:56:20.326Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T18:56:20.665Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T19:06:13.298Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:06:20.546Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"a940dc8c-bfe7-4b3e-9d48-757de125cf60"}}
+{"ts":"2025-08-20T19:06:22.780Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T19:06:23.130Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T19:11:07.109Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:11:14.654Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"beb70b61-f682-4072-9a14-df239c05d45d"}}
+{"ts":"2025-08-20T19:11:16.983Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T19:11:17.323Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T19:12:54.572Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:13:00.798Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"7521920e-d0f1-430b-a8c4-fba1068f2a31"}}
+{"ts":"2025-08-20T19:13:03.025Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T19:13:03.373Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T19:14:17.428Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:14:23.483Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"1cb1cf9c-20dd-45ab-810a-2b477845a741"}}
+{"ts":"2025-08-20T19:14:25.709Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T19:14:27.068Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T19:14:45.238Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:14:52.969Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"58ff5534-f9c2-4a08-9acd-d2bd892c275b"}}
+{"ts":"2025-08-20T19:14:55.209Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T19:14:55.551Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T19:17:24.167Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:17:30.675Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"4267d80f-0781-4410-8358-5b3893b7fc58"}}
+{"ts":"2025-08-20T19:17:32.908Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T19:17:33.847Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T19:17:59.253Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:18:05.870Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"518d65a0-364f-409f-a60f-38f07cb53c50"}}
+{"ts":"2025-08-20T19:18:08.136Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T19:18:08.481Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T19:18:55.991Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:19:03.335Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"f0d5dd38-075e-4045-9ecc-29c682303120"}}
+{"ts":"2025-08-20T19:19:05.723Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T19:19:06.149Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T19:19:48.933Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:19:55.075Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"bb6410de-4c6c-426b-b7c6-8843233f5b23"}}
+{"ts":"2025-08-20T19:19:57.433Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T19:19:57.822Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T19:37:28.186Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:39:28.815Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:45:30.019Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:47:13.874Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:48:26.171Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:50:04.041Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:50:10.032Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"8f28ec25-2228-403b-88af-415ca9d8bbf5"}}
+{"ts":"2025-08-20T19:50:12.239Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T19:50:12.563Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T19:51:09.552Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:51:15.466Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"a30fd3ae-39eb-47fe-ade8-63ff26c8844e"}}
+{"ts":"2025-08-20T19:51:17.683Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T19:51:17.993Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T19:51:46.232Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:51:52.143Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"16ef1d3c-da7d-4531-bdd9-6ea79b642611"}}
+{"ts":"2025-08-20T19:51:54.658Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T19:51:55.473Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T19:53:15.059Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:53:20.909Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"27a6c659-7f68-4926-b958-1c75b66459ad"}}
+{"ts":"2025-08-20T19:53:23.118Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T19:53:23.426Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T19:53:23.673Z","level":"info","msg":"[Collection:RequestToPay] Success","meta":{"ref":"78150313-d216-4e49-9aab-84e207030bc2","amount":"1000","currency":"EUR","phone":"225478963"}}
+{"ts":"2025-08-20T19:53:24.197Z","level":"info","msg":"[Collection:GetTransactionStatus]","meta":{"transactionId":"78150313-d216-4e49-9aab-84e207030bc2","status":"SUCCESSFUL"}}
+{"ts":"2025-08-20T19:53:24.377Z","level":"info","msg":"[Collection:GetAccountBalance]","meta":{"currency":"EUR","availableBalance":"0"}}
+{"ts":"2025-08-20T19:54:37.719Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:55:09.373Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:55:57.043Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:57:53.194Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T19:57:59.191Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"12e9f65e-a5ad-4bff-8642-806913389a7b"}}
+{"ts":"2025-08-20T19:58:01.381Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T19:58:01.698Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T19:58:01.928Z","level":"info","msg":"[Collection:RequestToPay] Success","meta":{"ref":"cdfc89c2-4470-40ae-9310-03674ecee7f7","amount":"1000","currency":"EUR","phone":"225478963"}}
+{"ts":"2025-08-20T19:58:02.146Z","level":"info","msg":"[Collection:GetTransactionStatus]","meta":{"transactionId":"cdfc89c2-4470-40ae-9310-03674ecee7f7","status":"SUCCESSFUL"}}
+{"ts":"2025-08-20T19:58:02.360Z","level":"info","msg":"[Collection:GetAccountBalance]","meta":{"currency":"EUR","availableBalance":"0"}}
+{"ts":"2025-08-20T20:01:23.599Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T20:01:29.425Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"e4e01217-c034-47db-b97f-13cc8c063fc2"}}
+{"ts":"2025-08-20T20:01:31.607Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T20:01:31.908Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T20:01:51.389Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T20:01:52.398Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"64d8ce9d-0648-44a6-99bd-ae325be8ea3c"}}
+{"ts":"2025-08-20T20:01:54.602Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T20:01:54.905Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T20:01:55.142Z","level":"info","msg":"[Collection:RequestToPay] Success","meta":{"ref":"0901b625-8d84-41d2-9bf8-fa5a4acb7c9b","amount":"1000","currency":"EUR","phone":"225478963"}}
+{"ts":"2025-08-20T20:01:55.364Z","level":"info","msg":"[Collection:GetTransactionStatus]","meta":{"transactionId":"0901b625-8d84-41d2-9bf8-fa5a4acb7c9b","status":"SUCCESSFUL"}}
+{"ts":"2025-08-20T20:04:25.429Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T20:04:31.478Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"b665d688-59ed-4d17-ac86-ed1c3cd1c879"}}
+{"ts":"2025-08-20T20:04:33.669Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T20:04:33.988Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T20:04:34.345Z","level":"info","msg":"[Collection:RequestToPay] Success","meta":{"ref":"67cde724-ed2a-4fd4-b8d7-b96a58e6d6a7","amount":"1000","currency":"EUR","phone":"225478963"}}
+{"ts":"2025-08-20T20:04:34.662Z","level":"info","msg":"[Collection:GetTransactionStatus]","meta":{"transactionId":"67cde724-ed2a-4fd4-b8d7-b96a58e6d6a7","status":"SUCCESSFUL"}}
+{"ts":"2025-08-20T20:04:34.841Z","level":"info","msg":"[Collection:GetAccountBalance]","meta":{"currency":"EUR","availableBalance":"-25"}}
+{"ts":"2025-08-20T20:04:35.170Z","level":"info","msg":"[disbursement] API User created","meta":{"apiUser":"b7fd868d-018b-45cb-85bf-4f156f0c0bc7"}}
+{"ts":"2025-08-20T20:04:37.352Z","level":"info","msg":"[disbursement] API Key created"}
+{"ts":"2025-08-20T20:04:37.663Z","level":"info","msg":"[disbursement] Access token retrieved"}
+{"ts":"2025-08-20T20:04:37.884Z","level":"info","msg":"[Disbursement] Success","meta":{"ref":"9916421f-da57-4155-9f58-200488683b18","amount":"1500","currency":"EUR"}}
+{"ts":"2025-08-20T20:04:38.098Z","level":"info","msg":"[GetDisbursementStatus]","meta":{"transactionId":"9916421f-da57-4155-9f58-200488683b18","status":"SUCCESSFUL"}}
+{"ts":"2025-08-20T20:50:18.823Z","level":"info","msg":"MtnMomoClient instantiated"}
+{"ts":"2025-08-20T20:50:24.727Z","level":"info","msg":"[collection] API User created","meta":{"apiUser":"c5f308d3-6802-4173-a69c-f97b7562bfee"}}
+{"ts":"2025-08-20T20:50:27.006Z","level":"info","msg":"[collection] API Key created"}
+{"ts":"2025-08-20T20:50:27.360Z","level":"info","msg":"[collection] Access token retrieved"}
+{"ts":"2025-08-20T20:50:27.686Z","level":"info","msg":"[Collection:RequestToPay] Success","meta":{"ref":"766a5ccb-7870-40a1-9427-2632d752c6f2","amount":"1000","currency":"EUR","phone":"225478963"}}
+{"ts":"2025-08-20T20:50:28.020Z","level":"info","msg":"[Collection:GetTransactionStatus]","meta":{"transactionId":"766a5ccb-7870-40a1-9427-2632d752c6f2","status":"SUCCESSFUL"}}

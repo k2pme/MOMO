@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7bcb6097-e40a-4633-bf18-6975a9f8d019" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/smoke.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logging/file-transport.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logging/logger.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logging/memory-transport.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logging/transports.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/provisioning.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/collection.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/disbursement.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/remittance.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ids.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/node-safe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.cjs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/products/collection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/products/disbursement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/products/userProvisioning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/types/momo.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/utils/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/utils/var.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/momo.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/products/collection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/products/disbursement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/products/userProvisioning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/var.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-momo/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-momo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-momo/test-momo-1.0.0.tgz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-momo/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/momo.d.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="31Yj5PAVk7BbYlQwfgh8FRbTlAJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/clodlin/MOMO",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/home/clodlin/MOMO/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.26927.40" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bcb6097-e40a-4633-bf18-6975a9f8d019" name="Changes" comment="" />
+      <created>1755707715740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755707715740</updated>
+      <workItem from="1755707716961" duration="37000" />
+      <workItem from="1755707768584" duration="1941000" />
+      <workItem from="1755709724709" duration="12802000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
