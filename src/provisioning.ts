@@ -29,8 +29,6 @@ export async function provisionApiUserAndKey(product: MtnProduct, cfg: MomoConfi
 
     logger.info(`[${product}] API User created`, { apiUser });
 
-
-
     // 2) Wait a bit & create API Key
     await new Promise(res => setTimeout(res, 2000));
 
