@@ -1,0 +1,16 @@
+# Ignore dist file
+dist
+
+# Ignore .idea file
+/.idea
+
+# Ignore nodejs files
+node_modules
+
+# Ignore .env file
+*.env
+
+# Ignore .log files in all folders and subfolders
+logs
+**/*.log
+
