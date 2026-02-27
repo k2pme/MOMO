@@ -3,12 +3,13 @@ import { newRefId } from "../utils/ids.js";
 import { getAccessToken } from "../auth.js";
 import { Logger } from "../logging/logger.js";
 import { MomoConfig } from "../types.js";
+import { getCurrency } from "../utils/service.js";
 
 export async function transfer(cfg: MomoConfig, logger: Logger, params: { amount: number | string; beneficiaryPhone: string; currency?: string }) {
 
     const token = await getAccessToken("disbursement", cfg, logger);
     const ref = newRefId();
-    const currency = params.currency ?? "XAF";
+    const currency = getCurrency(cfg, params.currency);
 
     const headers = {
         "X-Reference-Id": ref,

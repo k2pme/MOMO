@@ -3,6 +3,7 @@ import { newRefId } from "../utils/ids.js";
 import { getAccessToken } from "../auth.js";
 import { Logger } from "../logging/logger.js";
 import { MomoConfig } from "../types.js";
+import { getCurrency } from "../utils/service.js";
 
 export async function requestToPay(
     cfg: MomoConfig, logger: Logger,
@@ -12,7 +13,7 @@ export async function requestToPay(
     const token = await getAccessToken("collection", cfg, logger);
     const ref = newRefId();
 
-    const currency = params.currency ?? "XAF";
+    const currency = getCurrency(cfg, params.currency);
 
     const headers = {
         "X-Reference-Id": ref,
@@ -22,8 +23,6 @@ export async function requestToPay(
         "Cache-Control" : cfg.cacheControl,
         "X-Callback-Url" : undefined,
     };
-
-    console.log(headers);
 
     const payload = {
         amount: String(params.amount),
