@@ -69,6 +69,8 @@ MOMO_LOG_LEVEL=info
 
 # Usage (Generic JavaScript Example)
 
+> ℹ️ **INFO:** In the **sandbox** environment, the API always defaults to **EUR**, regardless of the currency specified in your request. In **production**, the API will correctly process transactions using the currency provided in your arguments.
+
 ```javascript
 async function main() {
   const momo = new MtnMomoClient();
