@@ -1,4 +1,4 @@
-import axios from "axios";
+import ky from "ky";
 import { newRefId } from "../utils/ids.js";
 import { getAccessToken } from "../auth.js";
 import { Logger } from "../logging/logger.js";
@@ -33,7 +33,10 @@ export async function requestToPay(
         payeeNote: "Thank you for using our service"
     };
 
-    const r = await axios.post(`${cfg.baseUrl}/collection/v1_0/requesttopay`, payload, { headers });
+    const r = await ky.post(`${cfg.baseUrl}/collection/v1_0/requesttopay`, {
+        json: payload,
+        headers
+    });
     logger.info(`[Collection:RequestToPay] Success`, { ref, amount: payload.amount, currency, phone: params.phoneNumber });
     return { referenceId: ref, mtnStatusCode: r.status, mtnStatusText: r.statusText, status: "REQUESTED" as const };
 }
@@ -45,9 +48,10 @@ export async function getRequestStatus(cfg: MomoConfig, logger: Logger, transact
         "Authorization": `Bearer ${token}`,
         "X-Target-Environment": cfg.environment
     };
-    const r = await axios.get(`${cfg.baseUrl}/collection/v1_0/requesttopay/${transactionId}`, { headers });
-    logger.info(`[Collection:GetTransactionStatus]`, { transactionId, status: r.data?.status });
-    return r.data;
+    const r = await ky.get(`${cfg.baseUrl}/collection/v1_0/requesttopay/${transactionId}`, { headers });
+    const data = await r.json() as any;
+    logger.info(`[Collection:GetTransactionStatus]`, { transactionId, status: data?.status });
+    return data;
 }
 
 export async function getBalance(cfg: MomoConfig, logger: Logger) {
@@ -57,9 +61,10 @@ export async function getBalance(cfg: MomoConfig, logger: Logger) {
         "Authorization": `Bearer ${token}`,
         "X-Target-Environment": cfg.environment
     };
-    const r = await axios.get(`${cfg.baseUrl}/collection/v1_0/account/balance`, { headers });
-    logger.info(`[Collection:GetAccountBalance]`, { currency: r.data?.currency, availableBalance: r.data?.availableBalance });
-    return r.data;
+    const r = await ky.get(`${cfg.baseUrl}/collection/v1_0/account/balance`, { headers });
+    const data = await r.json() as any;
+    logger.info(`[Collection:GetAccountBalance]`, { currency: data?.currency, availableBalance: data?.availableBalance });
+    return data;
 }
 
 export async function validateAccount(cfg: MomoConfig, logger: Logger, accountHolderId: string, accountHolderIdType = "msisdn") {
@@ -69,7 +74,8 @@ export async function validateAccount(cfg: MomoConfig, logger: Logger, accountHo
         "Authorization": `Bearer ${token}`,
         "X-Target-Environment": cfg.environment
     };
-    const r = await axios.get(`${cfg.baseUrl}/collection/v1_0/accountholder/${accountHolderIdType}/${accountHolderId}/active`, { headers });
-    logger.info(`[Collection:ValidateAccountHolderStatus]`, { accountHolderId, result: r.data?.result });
-    return r.data;
+    const r = await ky.get(`${cfg.baseUrl}/collection/v1_0/accountholder/${accountHolderIdType}/${accountHolderId}/active`, { headers });
+    const data = await r.json() as any;
+    logger.info(`[Collection:ValidateAccountHolderStatus]`, { accountHolderId, result: data?.result });
+    return data;
 }

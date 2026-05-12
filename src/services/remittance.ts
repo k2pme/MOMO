@@ -1,4 +1,4 @@
-import axios from "axios";
+import ky from "ky";
 import { newRefId } from "../utils/ids.js";
 import { getAccessToken } from "../auth.js";
 import { Logger } from "../logging/logger.js";
@@ -27,7 +27,10 @@ export async function cashTransfer(cfg: MomoConfig, logger: Logger, params: { am
         payeeNote: "Here is your remittance payment"
     };
 
-    const r = await axios.post(`${cfg.baseUrl}/remittance/v1_0/transfer`, payload, { headers });
+    const r = await ky.post(`${cfg.baseUrl}/remittance/v1_0/transfer`, {
+        json: payload,
+        headers
+    });
     logger.info(`[Remittance:CashTransfer] Success`, { ref, amount: payload.amount, currency });
     return { referenceId: ref, mtnStatusCode: r.status, mtnStatusText: r.statusText, status: "REQUESTED" as const };
 }
@@ -39,9 +42,10 @@ export async function getTransferStatus(cfg: MomoConfig, logger: Logger, transac
         "Authorization": `Bearer ${token}`,
         "X-Target-Environment": cfg.environment
     };
-    const r = await axios.get(`${cfg.baseUrl}/remittance/v1_0/transfer/${transactionId}`, { headers });
-    logger.info(`[Remittance:GetTransferStatus]`, { transactionId, status: r.data?.status });
-    return r.data;
+    const r = await ky.get(`${cfg.baseUrl}/remittance/v1_0/transfer/${transactionId}`, { headers });
+    const data = await r.json();
+    logger.info(`[Remittance:GetTransferStatus]`, { transactionId, status: (data as any)?.status });
+    return data;
 }
 
 export async function getAccountBalance(cfg: MomoConfig, logger: Logger) {
@@ -51,7 +55,8 @@ export async function getAccountBalance(cfg: MomoConfig, logger: Logger) {
         "Authorization": `Bearer ${token}`,
         "X-Target-Environment": cfg.environment
     };
-    const r = await axios.get(`${cfg.baseUrl}/remittance/v1_0/account/balance`, { headers });
-    logger.info(`[Remittance:GetAccountBalance]`, { currency: r.data?.currency, availableBalance: r.data?.availableBalance });
-    return r.data;
+    const r = await ky.get(`${cfg.baseUrl}/remittance/v1_0/account/balance`, { headers });
+    const data = await r.json();
+    logger.info(`[Remittance:GetAccountBalance]`, { currency: (data as any)?.currency, availableBalance: (data as any)?.availableBalance });
+    return data;
 }
