@@ -14,23 +14,38 @@
   },
   "scripts": {
     "build": "tsup",
-    "prepublishOnly": "npm run build"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
+    "test": "vitest --ui",
+    "test:watch": "vitest --ui --watch",
+    "test:coverage": "vitest --coverage --ui"
   },
-  "files": ["dist", "README.md", "LICENSE"],
-  "keywords": ["mtn", "momo", "mobile money", "collection", "disbursement", "remittance"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "mtn",
+    "momo",
+    "mobile money",
+    "collection",
+    "disbursement",
+    "remittance"
+  ],
   "author": "Clodlin MANTSILA",
-  "license": "MIT",
   "dependencies": {
-    "axios": "^1.8.3",
     "base-64": "^1.0.0",
     "dotenv": "^16.4.5",
+    "ky": "^2.0.2",
     "utf8": "^3.0.0",
     "uuid": "^11.1.0",
     "uuid4": "^2.0.3"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
+    "@vitest/ui": "^4.1.6",
     "tsup": "^8.5.0",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vitest": "^4.1.6"
   }
 }

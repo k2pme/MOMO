@@ -8,7 +8,7 @@ export interface SubscriptionKeys {
 
 export interface MomoConfig {
     baseUrl: string;                 // ex: https://sandbox.momodeveloper.mtn.com
-    environment: string;             // "sandbox" | "production" (selon API MTN)
+    environment: 'sandbox' | 'production';             // "sandbox" | "production" (selon API MTN)
     callbackHost?: string;           // providerCallbackHost pour provisioning
     subscriptionKeys: SubscriptionKeys;
     cacheControl? : string;

@@ -1,4 +1,4 @@
-import axios from "axios";
+import ky from "ky";
 import { newRefId } from "./utils/ids.js";
 import { Logger } from "./logging/logger.js";
 import { MtnProduct, MomoConfig, ProvisionedCreds } from "./types.js";
@@ -12,7 +12,7 @@ export async function provisionApiUserAndKey(product: MtnProduct, cfg: MomoConfi
     if (configStore[product]) return configStore[product]!;
 
     const subKey =
-        product === "collection"   ? cfg.subscriptionKeys.collection :
+        product === "collection" ? cfg.subscriptionKeys.collection :
             product === "disbursement" ? cfg.subscriptionKeys.disbursement :
                 cfg.subscriptionKeys.remittance;
 
@@ -21,26 +21,22 @@ export async function provisionApiUserAndKey(product: MtnProduct, cfg: MomoConfi
     const apiUser = newRefId();
     console.log(subKey, apiUser);
     // 1) Create API User
-    await axios.post(
-        `${cfg.baseUrl}/v1_0/apiuser`,
-        { providerCallbackHost: cfg.callbackHost ?? "string" },
-        { headers: { "X-Reference-Id": apiUser, "Ocp-Apim-Subscription-Key": subKey, "Cache-Control": cfg.cacheControl } }
-    );
+    await ky.post(`${cfg.baseUrl}/v1_0/apiuser`, {
+        json: { providerCallbackHost: cfg.callbackHost ?? "string" },
+        headers: { "X-Reference-Id": apiUser, "Ocp-Apim-Subscription-Key": subKey, "Cache-Control": cfg.cacheControl }
+    });
 
     logger.info(`[${product}] API User created`, { apiUser });
-
-
 
     // 2) Wait a bit & create API Key
     await new Promise(res => setTimeout(res, 2000));
 
-    const resp = await axios.post(
-        `${cfg.baseUrl}/v1_0/apiuser/${apiUser}/apikey`,
-        {},
-        { headers: { "Ocp-Apim-Subscription-Key": subKey } }
-    );
+    const resp = await ky.post(`${cfg.baseUrl}/v1_0/apiuser/${apiUser}/apikey`, {
+        json: {},
+        headers: { "Ocp-Apim-Subscription-Key": subKey }
+    });
 
-    const apiKey = resp.data.apiKey as string;
+    const apiKey = (await resp.json() as any).apiKey as string;
     logger.info(`[${product}] API Key created`);
 
     const creds = { apiUser, apiKey };

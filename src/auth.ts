@@ -1,4 +1,4 @@
-import axios from "axios";
+import ky from "ky";
 import { provisionApiUserAndKey } from "./provisioning.js";
 import { Logger } from "./logging/logger.js";
 import { AccessTokenCache, MomoConfig, MtnProduct } from "./types.js";
@@ -25,11 +25,11 @@ export async function getAccessToken(
     let apiUser: string | undefined;
     let apiKey: string | undefined;
 
-    // ✅ If sandbox → generate credentials automatically
+    // If sandbox → generate credentials automatically
     if (cfg.environment.toLowerCase() === "sandbox") {
         ({ apiUser, apiKey } = await provisionApiUserAndKey(product, cfg, logger));
     } else {
-        // ✅ In production → must be provided in config/env
+        // In production → must be provided in config/env
         apiUser =
             product === "collection"
                 ? process.env.MTN_COLLECTION_API_USER
@@ -67,20 +67,18 @@ export async function getAccessToken(
 
     const basic = Buffer.from(`${apiUser}:${apiKey}`).toString("base64");
 
-    const resp = await axios.post(
-        endpoint,
-        {},
-        {
-            headers: {
-                "Ocp-Apim-Subscription-Key": subKey!,
-                Authorization: `Basic ${basic}`,
-                "Content-Type": "application/json"
-            }
+    const resp = await ky.post(endpoint, {
+        json: {},
+        headers: {
+            "Ocp-Apim-Subscription-Key": subKey!,
+            Authorization: `Basic ${basic}`,
+            "Content-Type": "application/json"
         }
-    );
+    });
 
-    const token = resp.data?.access_token as string;
-    const expires_in = (resp.data?.expires_in as number) ?? 1800; // default 30min
+    const data = await resp.json() as any;
+    const token = data?.access_token as string;
+    const expires_in = (data?.expires_in as number) ?? 1800; // default 30min
 
     if (!token) throw new Error("No access_token in MTN response");
 
